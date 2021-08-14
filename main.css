@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    position: relative;
+    height:500px;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+}
+.mt-32{
+    margin-top: 2em;/*32px;*/
+}
+.bg_overlay{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    width: 100%;
+    height:100%;
+    left: 0;
+    top:0;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+.center h3{
+    color: white;
+}
+.center div:first-child{
+    width: 20%;
+}
+.center div:first-child img{
+    width: 100%;
+}
+.forward{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.input__container{
+    width: 50%;
+}
+.input__container .input__format{
+    border-radius: 10px ;
+    width: 100%;
+    padding: 15px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card{
+    border-radius: 20px;
+    border: 1px solid #b6b6b6;
+}
+.card_header{
+    height: 4em;
+    background-image: url("https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png");
+}
+
+.card_body{
+    padding:1em;
+}
+
+.innercontent{
+    padding-left:70px;
+    position:absolute;
+    top:50em;
+    padding-bottom: 20px;
+}
+
+.innercontent a{
+    color:red;
+    background-image: url("https://kit.fontawesome.com/a076d05399.js");
+    text-decoration: none;
+    padding-top:16px;
+    margin-left:30em;
+}
+
+.innercontent > .sidebyside{
+    display:flex;
+    padding-bottom:50px;
+}
+
+#four_picture div{
+    display:grid;
+    grid-template-columns: repeat(4,0.1fr);
+    padding-top:100px;
+    margin-right:5px;
+    margin-left:5px;
+    padding-bottom: 80px;  
+}
+
+
+.one img{
+    height:350px;
+    border-radius: 10px; 
+    margin-left:50px;  
+
+}
+
+.one img{
+    height:350px;
+    border-radius: 10px; 
+    margin-left:50px;  
+ 
+}
+
+.two img{
+    height:350px;
+    border-radius: 10px; 
+}
+.three img{
+    height:350px;
+    border-radius: 10px; 
+}
+
+.four img{
+    height:350px;
+    border-radius: 10px;  
+    margin-right:20px;
+}
+
+.trending{
+    text-align: initial;
+    position:absolute;
+    left:70px;
+    top:73em;
+    color:white;
+}
+.traffic{
+    text-align: initial;
+    position:absolute;
+    left:24em;
+    top:73em;
+    color:white;
+}
+.pizza{
+    text-align: initial;
+    position:absolute;
+    left:43.5em;
+    top:73em;
+    color:white;
+}
+.poke{
+    text-align: initial;
+    position:absolute;
+    left:63em;
+    top:73em;
+    color:white;
+
+}
+
+.right_bar{
+    width:50px;
+    height:120px;
+    background-color: rgb(237, 90, 107);
+    border:1px solid black;
+    position:fixed;
+    top:20em;
+    left:81.2em;
+    border-radius: 3px;
+
+}
+
+#bottom_bar{
+    width:40px;
+    height:50px;
+    padding-right:60em;
+    padding-left:23em;
+    background-color: rgb(28, 28, 28);
+    border:1px solid black;
+    position:fixed;
+    top:40em;
+    right: 0em;
+    
+}
+.text_bar{
+    position:fixed;
+    font-weight: bold;
+    top:40em;
+    left:12px;
+    color:white;
+   
+}
+
+button{
+    padding:10px 30px;
+    position: fixed;
+    bottom:10px;
+    right:3em;
+    border-radius: 10px;
+    background-color: rgb(237, 90, 107);
+    border-color:rgb(237, 90, 107) ;
+    color:white;
+    font-weight: bold;
+
+}
+

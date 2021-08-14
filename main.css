@@ -195,7 +195,7 @@ header{
     border:1px solid black;
     position:fixed;
     top:20em;
-    left:81.2em;
+    right:0;
     border-radius: 3px;
 
 }
@@ -208,7 +208,7 @@ header{
     background-color: rgb(28, 28, 28);
     border: 1px solid black;
     position: fixed;
-    bottom: 2px;
+    bottom: 0px;
     /* right: 10px; */
     /* left: 23px; */
     left: -4px;
@@ -227,7 +227,8 @@ button{
     padding:10px 30px;
     position: fixed;
     bottom:10px;
-    right:3em;
+    right:60px;
+    /* right:3em; */
     border-radius: 10px;
     background-color: rgb(237, 90, 107);
     border-color:rgb(237, 90, 107) ;

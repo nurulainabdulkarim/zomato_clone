@@ -11,6 +11,31 @@ body{
     display: flex;
 }
 
+
+ .app p{
+    color:white;
+    position:absolute;
+    top:15px;
+    left:150px;
+}
+
+nav {
+    position: absolute;
+    right:150px;
+    top:30px;
+
+}
+
+nav > a{
+    color:white;
+    text-decoration: none;
+    margin:0 10px;
+    /* position:absolute; */
+    /* top:10px;
+    right:30px; */
+
+}
+
 header{
     position: relative;
     height:500px;
@@ -176,23 +201,25 @@ header{
 }
 
 #bottom_bar{
-    width:40px;
-    height:50px;
-    padding-right:60em;
-    padding-left:23em;
+    width: 40px;
+    height: 50px;
+    padding-right: 64em;
+    padding-left: 25em;
     background-color: rgb(28, 28, 28);
-    border:1px solid black;
-    position:fixed;
-    top:40em;
-    right: 0em;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 2px;
+    /* right: 10px; */
+    /* left: 23px; */
+    left: -4px;
     
 }
 .text_bar{
     position:fixed;
     font-weight: bold;
-    top:40em;
-    left:12px;
-    color:white;
+    left: 14px;
+    bottom: 3px;
+    color: white;
    
 }
 
